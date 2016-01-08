@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<!--
+Beyond Admin - Responsive Admin Dashboard Template build with Twitter Bootstrap 3
+Version: 1.0.0
+
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--Head-->
+<head>
+    <meta charset="utf-8" />
+    <title>Register Page</title>
+
+    <meta name="description" content="register page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="../../static/assets/img/favicon.png" type="image/x-icon">
+
+    <!--Basic Styles-->
+    <link href="../../static/assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link id="bootstrap-rtl-link" href="" rel="stylesheet" />
+    <link href="../../static/assets/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!--Fonts-->
+    <link href="http://fonts.useso.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300" rel="stylesheet" type="text/css">
+
+    <!--Beyond styles-->
+    <link id="beyond-link" href="../static/assets/css/beyond.min.css" rel="stylesheet" />
+    <link href="../../static/assets/css/demo.min.css" rel="stylesheet" />
+    <link href="../../static/assets/css/animate.min.css" rel="stylesheet" />
+    <link id="skin-link" href="" rel="stylesheet" type="text/css" />
+    
+	<!--Basic Scripts-->
+	<script type="text/javascript" src="../../static/seajs/sea.js" ></script>
+    <script type="text/javascript" src="../../static/seajs/sea-config.js"></script>
+	<script type="text/javascript">
+		seajs.use(["./register.js","../static/seajs/common.js"]);
+	</script>
+	
+    <!--Skin Script: Place this script in head to load scripts for skins and rtl support-->
+
+</head>
+<!--Head Ends-->
+<!--Body-->
+<body>
+    <div class="register-container animated fadeInDown">
+        <div class="registerbox bg-white">
+            <div class="registerbox-title">注册</div>
+
+            <div class="registerbox-caption ">请填写您的信息</div>
+            <div class="registerbox-textbox">
+                <input name="userId" type="text" class="form-control" placeholder="用户名" />
+            </div>
+            <div class="registerbox-textbox">
+                <input name="userPWD" type="password" class="form-control" placeholder="请输入您的密码" />
+            </div>
+            <div class="registerbox-textbox">
+                <input name="userCPWD" type="password" class="form-control" placeholder="确认输入的密码" />
+            </div>
+            <hr class="wide" />
+            <div class="registerbox-textbox">
+                <input name="phonenumnber" id ="phonenumnber" type="text" class="form-control" placeholder="手机号码" />
+            </div>
+            <div class="registerbox-textbox">
+                <input name="phonecode" id ="phonecode" type="text" class="form-control" placeholder="验证码" />
+            </div>
+			   <div class="registerbox-submit">
+                <input  id="doSend" type="button" class="btn btn-primary pull-right" value="发送验证码">
+            </div>
+       
+            <div class="registerbox-textbox no-padding-bottom">
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox" class="colored-primary" checked="checked">
+                        <span class="text darkgray">我同意 <a class="themeprimary">推流注册条款</a></span>
+                    </label>
+                </div>
+            </div>
+            <div class="registerbox-submit">
+                <input  id="doRegister" type="button" class="btn btn-primary pull-right" value="注册">
+            </div>
+        </div>
+    
+    </div>
+
+    <script src="../static/assets/js/jquery-2.0.3.min.js"></script>
+    <script src="../static/assets/js/bootstrap.min.js"></script>
+
+    <!--Beyond Scripts-->
+   <!-- <script src="../static/assets/js/beyond.min.js"></script>-->
+   
+     
+</body>
+<!--Body Ends-->
+</html>

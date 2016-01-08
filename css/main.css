@@ -1,0 +1,25 @@
+body{
+		/*margin:0;
+		padding-right: 10;
+		font-family: VERDANA;
+		font-size: 9pt;
+		overflow: hidden;
+		overflow-Y:hidden;
+		background-color: #cccccc;*/
+		}
+input{
+	/*background-color: #cccccc;*/
+}
+table,td,th{
+			border-collapse:collapse;
+			border: 1px solid #ccc;
+}
+.hideNode{
+	display:none;
+}
+.currentRow{
+	/*background-color: #E1EAF1;*/
+}
+.currentRow input{
+	/*background-color: #E1EAF1;*/
+}

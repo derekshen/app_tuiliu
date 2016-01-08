@@ -1,0 +1,9 @@
+define(function(require,exports){
+	//加载依赖
+	require("jquery");
+	require("misc");
+	require("dataset");
+	require("json2");
+	require("bootstrap");
+	require("bootstrap-datepicker");
+});
