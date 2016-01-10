@@ -23,3 +23,50 @@ table,td,th{
 .currentRow input{
 	/*background-color: #E1EAF1;*/
 }
+
+.nav-left {
+	background: #f0f0f0;
+	height: 100%;
+	position: absolute;
+	padding: 0;
+}
+
+.nav-left img {
+	width: 22px;
+	margin-right: 0.5em;
+}
+
+.nav-left li {
+	padding: 15px 10px 15px 35px;
+}
+
+.arrow-down {
+	float: right;
+	position: relative;
+	top: 3px;
+}
+
+.active {
+	background: #ffd91e;
+	color: black;
+}
+
+.sub-nav li {
+	padding-left: 18px;
+}
+
+.sub-nav span {
+	visibility: hidden;
+	color: #ffd91e;
+	margin-right: 0.5em;
+}
+
+.logout {
+	position: absolute;
+	bottom: 2em;
+	left: 2em;
+}
+
+.logout img {
+	width: 22px;
+}
