@@ -17,11 +17,11 @@
 }
 
 .menu-item,.sub-menu-item{
-     padding: 15px 10px 15px 35px;
+    padding: 15px 10px 15px 35px;
 }
 
 .nav-left li {
- 
+
 }
 
 .arrow-down {
@@ -74,3 +74,52 @@
     width: 22px;
 }
 
+.right-part{
+    padding-left: 45px;
+    padding-right: 45px;
+    font-family: 微软雅黑;
+}
+
+.org{
+    width: 100%;
+    margin-top: 18px;
+    height: 45px;
+    border-bottom: 1px solid rgb(230,230,230);
+}
+
+.org .org-img{
+    width: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+.org .org-name{
+    float: left;
+    line-height: 30px;
+    font-size: 16px;
+
+}
+
+
+.org .reg-img{
+    float: right;
+    height: 30px;
+}
+
+.station{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgb(230,230,230);
+
+}
+.station .circle{
+     float: left;
+     width: 8px;
+     margin: 21px 15px;
+     
+}
+.station .name{
+    float: left;
+    line-height: 50px;
+    font-size: 16px;
+}
